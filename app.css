@@ -1,0 +1,73 @@
+/* h1 {
+    color: paleturquoise;
+    background-color: lavenderblush;
+ }
+button {
+    color: khaki;
+    background-color: gray;
+}
+ p{
+    color: violet;
+    background-color: teal;
+} */
+ /* #mit {
+    color: #3f56ff;
+ }
+ body{
+    background-color: #efefef;
+ }
+ input[type="password"]{
+    color: fuchsia;
+ }
+ button:hover {
+    background-color: #e31f5e;
+    color: aqua;
+ }
+ button:active{
+    background-color: aquamarine;
+ } */
+  /* body {
+    margin: 0;
+  }
+  div {
+    width: 200px;
+    height: 200px;
+  }
+  #o {
+    background-color: #cdb4db;
+    border-width: 5px;
+    border-color: #a3b18a;
+    border-style: groove;
+    box-sizing: border-box;
+  }
+  #t {
+    background-color: #ffc8dd;
+    border: 30px solid #bde0fe;
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+    margin: 50px;
+
+
+  }
+  #h{
+    background-color: #ffafcc;
+  }
+  button {
+    padding: 0px 20px;
+  } */
+   section{
+    width: 500px;
+    height: 500px;
+    background-color: #540b0e;
+   }
+   #rgba{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(255, 255, 255,0.5);
+   }
+   #opa{
+    width: 50%;
+    height: 50%;
+    background-color: #335c67;
+    opacity: 0.3;
+   }

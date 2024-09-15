@@ -1,0 +1,59 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #070e20;
+}
+button{
+    background: none;
+    color: #ffa260;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 2em;
+    transition: all 0.25s;
+    margin: 50px;
+}
+/* button:hover {
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+} */
+
+.fly-effect {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: #3498db;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 5s ease-in-out; /* Smooth transition */
+  }
+  
+  .fly-effect:hover {
+    animation: fly 5s ease-in-out;
+  }
+  
+  @keyframes fly {
+    0% {
+      transform: translateX(0) translateY(0) rotate(0deg);
+    }
+    25% {
+      transform: translateX(200px) translateY(-100px) rotate(20deg);
+    }
+    50% {
+      transform: translateX(400px) translateY(0) rotate(0deg);
+    }
+    75% {
+      transform: translateX(200px) translateY(100px) rotate(-20deg);
+    }
+    100% {
+      transform: translateX(0) translateY(0) rotate(0deg);
+    }
+  }
+  

@@ -1,0 +1,46 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #598392;
+    border: 2px solid black;
+    margin: 10px;
+    display: inline-block;
+}
+#m{
+    background-color: #6d597a;
+}
+#s #m{
+    position: static;
+
+}
+#r #m{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#a{
+    position: relative;
+}
+#a #m{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+#f #m{
+    position: fixed;
+    top: 10px;
+    right: 0;
+}
+.circle {
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+    transition: background-color 1s;   
+    
+}
+
+.circle:hover{
+    background-color: darkmagenta;
+    border-radius: 50%;
+}
